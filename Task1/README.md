@@ -1,0 +1,2 @@
+# Solution-AdScale
+Описание проекта
