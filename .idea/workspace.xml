@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c696ee9b-a0dd-4a5f-bffe-e1c736a81832" name="Changes" comment="The First point" />
+    <list default="true" id="c696ee9b-a0dd-4a5f-bffe-e1c736a81832" name="Changes" comment="The 1.1 point">
+      <change afterPath="$PROJECT_DIR$/Task1/Diagrams/AS-IS-C4_Container_Diagram__AdScale__AS_IS_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task1/Diagrams/AS-IS.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task1/AS-IS.md" beforeDir="false" afterPath="$PROJECT_DIR$/Task1/AS-IS.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +31,19 @@
       <list>
         <option value="README" />
         <option value="Markdown File" />
+        <option value="UML Sequence" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "gaynov"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/gaynov/Solution-AdScale.git",
@@ -40,23 +52,23 @@
 }]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000622379992228" />
-      <entry key="MS500" value="1.2632706883034668" />
-      <entry key="S2" value="2.4527672316363214" />
-      <entry key="S5" value="3.5441463792081023" />
-      <entry key="S10" value="4.163064811347878" />
-      <entry key="S30" value="4.6922805488461705" />
-      <entry key="S60" value="4.883253214695054" />
-      <entry key="M2" value="5.412767774005829" />
-      <entry key="M5" value="7.340326271710764" />
-      <entry key="M10" value="9.045752282742699" />
-      <entry key="M15" value="9.855617271033658" />
-      <entry key="M30" value="10.829033305203263" />
-      <entry key="H1" value="11.38743315273818" />
-      <entry key="H2" value="11.686621268867" />
-      <entry key="H4" value="11.841494525893772" />
-      <entry key="D1" value="11.973326511563682" />
-      <entry key="W1" value="11.99618318602639" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.000005293615731" />
+      <entry key="S5" value="1.0142169363133084" />
+      <entry key="S10" value="1.2232397810327589" />
+      <entry key="S30" value="2.6543038767318157" />
+      <entry key="S60" value="3.8744657562473526" />
+      <entry key="M2" value="5.597202601348943" />
+      <entry key="M5" value="12.62623290920352" />
+      <entry key="M10" value="23.899154710572184" />
+      <entry key="M15" value="34.25959442373258" />
+      <entry key="M30" value="59.87512842435079" />
+      <entry key="H1" value="89.24466429651403" />
+      <entry key="H2" value="114.14165614503786" />
+      <entry key="H4" value="132.42713373876236" />
+      <entry key="D1" value="154.36504957503374" />
+      <entry key="W1" value="159.1612660187344" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -78,23 +90,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9207846696218368" />
-      <entry key="MS500" value="1.2429830756466311" />
-      <entry key="S2" value="2.440160910705117" />
-      <entry key="S5" value="3.536681079988172" />
-      <entry key="S10" value="4.1587157371967765" />
-      <entry key="S30" value="4.690664319066928" />
-      <entry key="S60" value="4.882404581324048" />
-      <entry key="M2" value="5.412191741002179" />
-      <entry key="M5" value="7.339785288722733" />
-      <entry key="M10" value="9.045327132626603" />
-      <entry key="M15" value="9.855282873666596" />
-      <entry key="M30" value="10.828834844548705" />
-      <entry key="H1" value="11.387324822071475" />
-      <entry key="H2" value="11.686564647595704" />
-      <entry key="H4" value="11.841465577274493" />
-      <entry key="D1" value="11.973321596079936" />
-      <entry key="W1" value="11.996182481564945" />
+      <entry key="MS100" value="0.9012504626108302" />
+      <entry key="MS500" value="0.9794202975869268" />
+      <entry key="S2" value="0.994820162289151" />
+      <entry key="S5" value="1.0121210842785249" />
+      <entry key="S10" value="1.2220531405692103" />
+      <entry key="S30" value="2.653590987336045" />
+      <entry key="S60" value="3.873974106394548" />
+      <entry key="M2" value="5.5968637034757105" />
+      <entry key="M5" value="12.625946164953138" />
+      <entry key="M10" value="23.89888668176988" />
+      <entry key="M15" value="34.259337514592595" />
+      <entry key="M30" value="59.8749000915705" />
+      <entry key="H1" value="89.24449017649441" />
+      <entry key="H2" value="114.14153940881351" />
+      <entry key="H4" value="132.42706093929024" />
+      <entry key="D1" value="154.36503360502257" />
+      <entry key="W1" value="159.161263598022" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -108,6 +120,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Sequence",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -144,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1794904927179</updated>
-      <workItem from="1794904928207" duration="1729000" />
+      <workItem from="1794904928207" duration="10481000" />
     </task>
     <task id="LOCAL-00001" summary="The First point">
       <option name="closed" value="true" />
@@ -154,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794905690538</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="The 1.1 point">
+      <option name="closed" value="true" />
+      <created>1794906809527</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1794906809527</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +183,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="The First point" />
-    <option name="LAST_COMMIT_MESSAGE" value="The First point" />
+    <MESSAGE value="The 1.1 point" />
+    <option name="LAST_COMMIT_MESSAGE" value="The 1.1 point" />
   </component>
 </project>
