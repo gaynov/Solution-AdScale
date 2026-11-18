@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c696ee9b-a0dd-4a5f-bffe-e1c736a81832" name="Changes" comment="The 1.1 point">
-      <change afterPath="$PROJECT_DIR$/Task1/Diagrams/AS-IS-C4_Container_Diagram__AdScale__AS_IS_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task1/Diagrams/AS-IS.puml" afterDir="false" />
+    <list default="true" id="c696ee9b-a0dd-4a5f-bffe-e1c736a81832" name="Changes" comment="AS_IS_v_0_1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task1/AS-IS.md" beforeDir="false" afterPath="$PROJECT_DIR$/Task1/AS-IS.md" afterDir="false" />
     </list>
@@ -23,7 +21,9 @@
   </component>
   <component name="ComposerSettings">
     <execution>
-      <execution />
+      <execution>
+        <execution />
+      </execution>
     </execution>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -38,37 +38,37 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "gaynov"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;gaynov&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/gaynov/Solution-AdScale.git",
-    "accountId": "2678ee55-a524-491b-bf04-c833f0240678"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/gaynov/Solution-AdScale.git&quot;,
+    &quot;accountId&quot;: &quot;2678ee55-a524-491b-bf04-c833f0240678&quot;
   }
-}]]></component>
+}</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.000005293615731" />
-      <entry key="S5" value="1.0142169363133084" />
-      <entry key="S10" value="1.2232397810327589" />
-      <entry key="S30" value="2.6543038767318157" />
-      <entry key="S60" value="3.8744657562473526" />
-      <entry key="M2" value="5.597202601348943" />
-      <entry key="M5" value="12.62623290920352" />
-      <entry key="M10" value="23.899154710572184" />
-      <entry key="M15" value="34.25959442373258" />
-      <entry key="M30" value="59.87512842435079" />
-      <entry key="H1" value="89.24466429651403" />
-      <entry key="H2" value="114.14165614503786" />
-      <entry key="H4" value="132.42713373876236" />
-      <entry key="D1" value="154.36504957503374" />
-      <entry key="W1" value="159.1612660187344" />
+      <entry key="MS500" value="1.0000000248208978" />
+      <entry key="S2" value="1.0139859954729056" />
+      <entry key="S5" value="1.3117651863061848" />
+      <entry key="S10" value="2.248525685243526" />
+      <entry key="S30" value="5.627181295322645" />
+      <entry key="S60" value="8.351771103671553" />
+      <entry key="M2" value="11.76536913603456" />
+      <entry key="M5" value="18.76142665777617" />
+      <entry key="M10" value="24.28421404530011" />
+      <entry key="M15" value="27.789918330120265" />
+      <entry key="M30" value="40.69760192909534" />
+      <entry key="H1" value="69.74160808600367" />
+      <entry key="H2" value="107.09694264148362" />
+      <entry key="H4" value="139.89452015036264" />
+      <entry key="D1" value="181.98149381966587" />
+      <entry key="W1" value="191.35686437172612" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -90,29 +90,29 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9012504626108302" />
-      <entry key="MS500" value="0.9794202975869268" />
-      <entry key="S2" value="0.994820162289151" />
-      <entry key="S5" value="1.0121210842785249" />
-      <entry key="S10" value="1.2220531405692103" />
-      <entry key="S30" value="2.653590987336045" />
-      <entry key="S60" value="3.873974106394548" />
-      <entry key="M2" value="5.5968637034757105" />
-      <entry key="M5" value="12.625946164953138" />
-      <entry key="M10" value="23.89888668176988" />
-      <entry key="M15" value="34.259337514592595" />
-      <entry key="M30" value="59.8749000915705" />
-      <entry key="H1" value="89.24449017649441" />
-      <entry key="H2" value="114.14153940881351" />
-      <entry key="H4" value="132.42706093929024" />
-      <entry key="D1" value="154.36503360502257" />
-      <entry key="W1" value="159.161263598022" />
+      <entry key="MS100" value="0.9265880618903709" />
+      <entry key="MS500" value="0.9848664673408198" />
+      <entry key="S2" value="1.0101278251639596" />
+      <entry key="S5" value="1.3097758228230234" />
+      <entry key="S10" value="2.246843648776242" />
+      <entry key="S30" value="5.625781044087851" />
+      <entry key="S60" value="8.350706114891288" />
+      <entry key="M2" value="11.764423905931972" />
+      <entry key="M5" value="18.76037616887857" />
+      <entry key="M10" value="24.28334988942404" />
+      <entry key="M15" value="27.78922193098148" />
+      <entry key="M30" value="40.69714600809561" />
+      <entry key="H1" value="69.7413058240869" />
+      <entry key="H2" value="107.09674687326222" />
+      <entry key="H4" value="139.8944001734925" />
+      <entry key="D1" value="181.98146803467722" />
+      <entry key="W1" value="191.35686047746256" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3ME9atGFSHFg3sgSbsduySkDXfY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -123,6 +123,7 @@
     "DefaultPlantUmlFileTemplate": "UML Sequence",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -157,7 +158,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1794904927179</updated>
-      <workItem from="1794904928207" duration="10481000" />
+      <workItem from="1794904928207" duration="11453000" />
+      <workItem from="1794996101655" duration="1272000" />
     </task>
     <task id="LOCAL-00001" summary="The First point">
       <option name="closed" value="true" />
@@ -175,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794906809527</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="AS_IS_v_0_1">
+      <option name="closed" value="true" />
+      <created>1794932584262</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1794932584262</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +194,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="The First point" />
     <MESSAGE value="The 1.1 point" />
-    <option name="LAST_COMMIT_MESSAGE" value="The 1.1 point" />
+    <MESSAGE value="AS_IS_v_0_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="AS_IS_v_0_1" />
   </component>
 </project>
