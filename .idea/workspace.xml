@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c696ee9b-a0dd-4a5f-bffe-e1c736a81832" name="Changes" comment="AS_IS_v_0_1">
+      <change afterPath="$PROJECT_DIR$/Task1/choosing_arch_style.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task1/Drivers.md" beforeDir="false" afterPath="$PROJECT_DIR$/Task1/Drivers.md" afterDir="false" />
     </list>
@@ -53,22 +54,22 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000495088028" />
-      <entry key="S2" value="1.0212037645708136" />
-      <entry key="S5" value="1.3180647343563072" />
-      <entry key="S10" value="1.8032237010695342" />
-      <entry key="S30" value="3.072417623764079" />
-      <entry key="S60" value="4.672482041312282" />
-      <entry key="M2" value="6.786818255601114" />
-      <entry key="M5" value="9.77480485766331" />
-      <entry key="M10" value="11.923148895258082" />
-      <entry key="M15" value="12.977474027265407" />
-      <entry key="M30" value="14.36593914086192" />
-      <entry key="H1" value="17.904956489377515" />
-      <entry key="H2" value="37.587008739394854" />
-      <entry key="H4" value="81.11267162726818" />
-      <entry key="D1" value="184.49866037440867" />
-      <entry key="W1" value="215.30726862769035" />
+      <entry key="MS500" value="1.0000486905053594" />
+      <entry key="S2" value="1.0835335754143562" />
+      <entry key="S5" value="1.370462649323644" />
+      <entry key="S10" value="1.608657112509245" />
+      <entry key="S30" value="1.8796060941583268" />
+      <entry key="S60" value="2.491216222432958" />
+      <entry key="M2" value="4.675437686049706" />
+      <entry key="M5" value="11.692087203575774" />
+      <entry key="M10" value="21.805518948457483" />
+      <entry key="M15" value="29.310263859197637" />
+      <entry key="M30" value="44.0808746611802" />
+      <entry key="H1" value="60.25435929509381" />
+      <entry key="H2" value="84.65184300092125" />
+      <entry key="H4" value="129.99904554598783" />
+      <entry key="D1" value="248.78213540810353" />
+      <entry key="W1" value="286.853778876396" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -90,23 +91,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9265880618903709" />
-      <entry key="MS500" value="0.9848664916527965" />
-      <entry key="S2" value="1.01731581633944" />
-      <entry key="S5" value="1.3160379467149372" />
-      <entry key="S10" value="1.8018231597344205" />
-      <entry key="S30" value="3.0715930250378274" />
-      <entry key="S60" value="4.671836888712905" />
-      <entry key="M2" value="6.786345062964148" />
-      <entry key="M5" value="9.774531203568838" />
-      <entry key="M10" value="11.92298115788958" />
-      <entry key="M15" value="12.97735196427169" />
-      <entry key="M30" value="14.365870905756992" />
-      <entry key="H1" value="17.904907750979973" />
-      <entry key="H2" value="37.58694695586812" />
-      <entry key="H4" value="81.1126023897118" />
-      <entry key="D1" value="184.49863361274066" />
-      <entry key="W1" value="215.3072641369549" />
+      <entry key="MS100" value="0.9460576467255959" />
+      <entry key="MS500" value="0.9890186710062816" />
+      <entry key="S2" value="1.0803605010240571" />
+      <entry key="S5" value="1.3686359274620874" />
+      <entry key="S10" value="1.6075123907430533" />
+      <entry key="S30" value="1.8791416495449675" />
+      <entry key="S60" value="2.490924042450807" />
+      <entry key="M2" value="4.67518907717404" />
+      <entry key="M5" value="11.691849431938902" />
+      <entry key="M10" value="21.805293238622937" />
+      <entry key="M15" value="29.310057004579225" />
+      <entry key="M30" value="44.08071110668361" />
+      <entry key="H1" value="60.25423997388509" />
+      <entry key="H2" value="84.6517460721048" />
+      <entry key="H4" value="129.9989592109744" />
+      <entry key="D1" value="248.78210387102666" />
+      <entry key="W1" value="286.8537735598512" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -127,7 +128,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/training/yp/sa/Solution-AdScale",
+    "last_opened_file_path": "D:/training/yp/sa/Solution-AdScale/Task1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
@@ -139,6 +140,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\training\yp\sa\Solution-AdScale\Task1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\training\yp\sa\Solution-AdScale\Task1" />
     </key>
@@ -159,7 +163,7 @@
       <option name="presentableId" value="Default" />
       <updated>1794904927179</updated>
       <workItem from="1794904928207" duration="11453000" />
-      <workItem from="1794996101655" duration="5050000" />
+      <workItem from="1794996101655" duration="9026000" />
     </task>
     <task id="LOCAL-00001" summary="The First point">
       <option name="closed" value="true" />
