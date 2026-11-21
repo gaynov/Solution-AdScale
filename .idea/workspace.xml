@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c696ee9b-a0dd-4a5f-bffe-e1c736a81832" name="Changes" comment="AS_IS_v_0_1">
-      <change afterPath="$PROJECT_DIR$/Task1/adr/ADR-001.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task1/Drivers.md" beforeDir="false" afterPath="$PROJECT_DIR$/Task1/Drivers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task1/adr/ADR-001.md" beforeDir="false" afterPath="$PROJECT_DIR$/Task1/adr/ADR-001.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task1/choosing_arch_style.md" beforeDir="false" afterPath="$PROJECT_DIR$/Task1/choosing_arch_style.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +23,11 @@
   <component name="ComposerSettings">
     <execution>
       <execution>
-        <execution />
+        <execution>
+          <execution>
+            <execution />
+          </execution>
+        </execution>
       </execution>
     </execution>
   </component>
@@ -54,23 +57,23 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000238193113093" />
-      <entry key="S2" value="1.0942298474048466" />
-      <entry key="S5" value="1.5782478833555427" />
-      <entry key="S10" value="2.145512177645037" />
-      <entry key="S30" value="3.203126726371412" />
-      <entry key="S60" value="4.596284656386439" />
-      <entry key="M2" value="8.134896338210735" />
-      <entry key="M5" value="16.27010636484919" />
-      <entry key="M10" value="23.207264785677726" />
-      <entry key="M15" value="28.166750108741542" />
-      <entry key="M30" value="42.27272960177786" />
-      <entry key="H1" value="64.68435895365499" />
-      <entry key="H2" value="96.30921354034004" />
-      <entry key="H4" value="146.76948040947727" />
-      <entry key="D1" value="279.72325680078757" />
-      <entry key="W1" value="323.6816187659926" />
+      <entry key="MS100" value="1.0000121389233971" />
+      <entry key="MS500" value="1.1043337415352295" />
+      <entry key="S2" value="1.7075271110653838" />
+      <entry key="S5" value="2.2525716066148913" />
+      <entry key="S10" value="2.5880047113099147" />
+      <entry key="S30" value="4.118752937144486" />
+      <entry key="S60" value="7.516772458399475" />
+      <entry key="M2" value="12.498965841425001" />
+      <entry key="M5" value="19.977166160679236" />
+      <entry key="M10" value="31.228436507682403" />
+      <entry key="M15" value="42.39511722083409" />
+      <entry key="M30" value="68.0626086748443" />
+      <entry key="H1" value="95.99079079664395" />
+      <entry key="H2" value="119.0524536174114" />
+      <entry key="H4" value="142.49031360712223" />
+      <entry key="D1" value="339.62534819571437" />
+      <entry key="W1" value="487.8155968144336" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -92,23 +95,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9460576467255959" />
-      <entry key="MS500" value="0.9889945046557876" />
-      <entry key="S2" value="1.0912157366303812" />
-      <entry key="S5" value="1.5765110988038336" />
-      <entry key="S10" value="2.144307960926063" />
-      <entry key="S30" value="3.202494891978748" />
-      <entry key="S60" value="4.595821319913461" />
-      <entry key="M2" value="8.134479485690699" />
-      <entry key="M5" value="16.269765803696522" />
-      <entry key="M10" value="23.207016369409484" />
-      <entry key="M15" value="28.16654450541686" />
-      <entry key="M30" value="42.272567756489295" />
-      <entry key="H1" value="64.68422885804827" />
-      <entry key="H2" value="96.30910647323445" />
-      <entry key="H4" value="146.76938757960903" />
-      <entry key="D1" value="279.723222682532" />
-      <entry key="W1" value="323.68161297388343" />
+      <entry key="MS100" value="0.9265995460116737" />
+      <entry key="MS500" value="1.0880489569086116" />
+      <entry key="S2" value="1.7017148173392642" />
+      <entry key="S5" value="2.24959644753359" />
+      <entry key="S10" value="2.5863146021428" />
+      <entry key="S30" value="4.1178821467547575" />
+      <entry key="S60" value="7.515990632382414" />
+      <entry key="M2" value="12.49831766079765" />
+      <entry key="M5" value="19.97674705535752" />
+      <entry key="M10" value="31.228092978705465" />
+      <entry key="M15" value="42.39479287212459" />
+      <entry key="M30" value="68.06232707298709" />
+      <entry key="H1" value="95.99057912952037" />
+      <entry key="H2" value="119.05231707325568" />
+      <entry key="H4" value="142.49022926858245" />
+      <entry key="D1" value="339.625309429801" />
+      <entry key="W1" value="487.81558849942786" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -120,26 +123,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultPlantUmlFileTemplate": "UML Sequence",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/training/yp/sa/Solution-AdScale/Task1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Sequence&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/training/yp/sa/Solution-AdScale/Task1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\training\yp\sa\Solution-AdScale\Task1" />
@@ -164,7 +167,9 @@
       <option name="presentableId" value="Default" />
       <updated>1794904927179</updated>
       <workItem from="1794904928207" duration="11453000" />
-      <workItem from="1794996101655" duration="11206000" />
+      <workItem from="1794996101655" duration="11290000" />
+      <workItem from="1795092468730" duration="6436000" />
+      <workItem from="1795249371858" duration="6191000" />
     </task>
     <task id="LOCAL-00001" summary="The First point">
       <option name="closed" value="true" />
