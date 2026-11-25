@@ -1,0 +1,145 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+LAYOUT_WITH_LEGEND()
+LAYOUT_LEFT_RIGHT()
+' LAYOUT_LANDSCAPE()
+
+title C4 Container Diagram — AdScale (TO-BE)
+
+' ====================== Акторы ======================
+Person(advertiser, "Рекламодатель", "Управляет кампаниями, бюджетами и ставками через личный кабинет")
+Person_Ext(endUser, "Пользователь сайта/приложения", "Просматривает рекламу, кликает по баннерам")
+
+System_Ext(dspPartner, "DSP-партнёр", "Отправляет bid-requests, получает bid-responses по OpenRTB")
+System_Ext(paymentGateway, "Платёжный шлюз", "Обработка пополнения рекламных бюджетов")
+
+' ====================== Микросервисы ======================
+
+Container(gateway, "API Gateway", "", "Маршрутизация, авторизация, лимиты подключений")
+
+System_Boundary(microservices, "AdScale microservices") {
+
+    Boundary(rtb, "RTB Hot Path (>80 ms)") {
+
+        Container(adServer, "Ad Server", "C++, Go", "Принимает HTTP-запросы, определяет пользователя, подбирает кандидатов в рекламу")
+        Container(auctionEngine, "Auction Engine", "C++", "Взвешивание ставок, бизнес-правила, расчёт победителя аукциона")
+        Container(deliveryService, "Delivery Service", "Node.js", "Формирует HTML/JS-разметку баннера и HTTP-ответ")
+        ContainerDb(cache, "Cache", "Redis 8.x", "Кампании, ставки, бюджеты, профили")
+    }
+
+    Boundary(stats, "Statistics Service") {
+        Container(statsService, "Stats Business Logic", "Python", "Запись кликов и показов")
+        ContainerDb(statsDB, "Stats DB", "PostreSQL", "")
+    }
+
+    ContainerQueue(kafka, "Apache Kafka", "Kafka 3.x", "Ставки, клики, биллинг")
+
+    Boundary(analytics, "Analytics Service") {
+        Container(analyticsService, "Analytics Business Logic", "Python", "Аналитические SQL-запросы")
+        ContainerDb(analyticsDB, "Analytics DB", "PostreSQL", "")
+        ContainerDb(analyticsReplicaDB, "Replica Analytics DB", "PostreSQL", "")
+    }
+
+    Boundary(financial, "Financial Service") {
+        Container(financialService, "Financial Business Logic", "Go", "Списание средств, выставление счетов, управление балансами")
+        ContainerDb(financialDB, "Financial DB", "PostreSQL", "")
+        ContainerDb(financialReplicaDB, "Replica Financial DB", "PostreSQL", "")
+    }
+
+    Boundary(advertiserService, "Advertiser Service") {
+        Container(adCabinet, "Advertiser Dashboard", "Node.js + JavaScript", "Web UI: управление кампаниями, отчётность")
+        ContainerDb(advertiserDB, "Advertiser DB", "PostreSQL", "")
+        ContainerDb(advertiserReplicaDB, "Replica Advertiser DB", "PostreSQL", "")
+    }
+}
+
+' ====================== База данных ======================
+' ContainerDb(postgres, "PostgreSQL", "PostgreSQL (одна инстанция)", "Единая БД: кампании, ставки, события, финансы, аналитика") <<Single Point of Failure>>
+
+' ====================== Связи ======================
+
+' Внешние связи
+Rel(dspPartner, gateway, "Bid-requests / responses", "HTTPS / REST")
+Rel(endUser, gateway, "Просмотр рекламы и клики", "HTTPS")
+Rel(advertiser, gateway, "Управляет кампаниями и бюджетами", "HTTPS")
+
+Rel(gateway, adServer, "Bid-requests / responses", "gRPC")
+Rel(gateway, deliveryService, "Просмотр рекламы и клики", "gRPC")
+Rel(gateway, adCabinet, "Управляет кампаниями и бюджетами", "gRPC")
+
+Rel(adCabinet, paymentGateway, "Пополнение бюджета", "HTTPS / REST")
+/''/
+
+' Внутренние связи внутри системы
+Rel(adServer, auctionEngine, "Передаёт кандидатов", "")
+Rel(auctionEngine, deliveryService, "Передаёт победителя аукциона", "")
+Rel(deliveryService, kafka, "Регистрирует показы/клики", "gRPC")
+Rel(statsService, kafka, "", "gRPC")
+Rel(statsService, statsDB, "Прямая запись событий", "")
+Rel(analyticsService, kafka, "", "gRPC")
+Rel(analyticsService, analyticsDB, "Запись", "")
+Rel(analyticsService, analyticsReplicaDB, "Тяжёлые аналитические запросы", "")
+Rel(financialService, kafka, "", "gRPC")
+Rel(financialService, financialDB, "Запись: транзакции", "")
+Rel(financialService, financialReplicaDB, "Чтение: балансы", "")
+Rel(adCabinet, financialService, "Управление финансами", "gRPC")
+Rel(adCabinet, analyticsService, "Запросы аналитики", "gRPC")
+
+' Связи с БД
+Rel(auctionEngine, cache, "Читает ставки и кампании", "JDBC / Sync")
+Rel(adServer, cache, "Чтение данных для таргетинга", "")
+Rel(adCabinet, advertiserDB, "CRUD-операции: запись", "JDBC")
+Rel(adCabinet, advertiserReplicaDB, "CRUD-операции: чтение", "JDBC")
+' Rel(deliveryService, cache, "", "")
+
+
+' Принудительное расположение (layout hints)
+
+/'
+Lay_D(deliveryService, statsService)
+Lay_R(statsService, financialService)
+Lay_R(financialService, analyticsService)
+Lay_D(adCabinet, postgres)
+'/
+
+' ====================== Аннотации проблемных мест ======================
+/'
+note right of auctionEngine
+  **⚠ Критический bottleneck**
+  Синхронные вызовы к БД
+  в hot path (SLA ≤ 100 мс)
+end note
+
+note right of postgres
+  **⚠ Single Point of Failure**
+  Одна инстанция — нет HA
+  Нет read-replicas
+  OLTP + аналитика конкурируют
+end note
+
+note bottom of statsService
+  **⚠ write bottleneck**
+  Прямая запись без буферизации / очередей
+  Конкуренция за ресурсы БД
+end note
+
+note bottom of analyticsService
+  **⚠ Блокировки и рост latency**
+  Heavy queries напрямую на production-БД
+end note
+'/
+' ====================== Легенда с метриками ======================
+/'
+legend right
+  <#FF0000> **15 000 RPS (пик)**
+  <#FF7700> **P95 latency: 110–120 мс** (требование ≤ 100 мс)
+  <#FF7700> Периодические деградации в часы пик
+  <#FF0000> Нет запаса по производительности
+  <#888888> Деплой: вручную, без контейнеризации
+  <#888888> Кеширование: отсутствует
+  <#888888> Асинхронные очереди: отсутствуют
+endlegend
+'/
+
+@enduml
