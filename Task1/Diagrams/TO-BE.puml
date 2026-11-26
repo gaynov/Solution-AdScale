@@ -73,6 +73,7 @@ Rel(adCabinet, paymentGateway, "Пополнение бюджета", "HTTPS / R
 
 ' Внутренние связи внутри системы
 Rel(adServer, auctionEngine, "Передаёт кандидатов", "")
+Rel(adServer, kafka, "Настройки рекламных кампаний", "")
 Rel(auctionEngine, deliveryService, "Передаёт победителя аукциона", "")
 Rel(deliveryService, kafka, "Регистрирует показы/клики", "gRPC")
 Rel(statsService, kafka, "", "gRPC")
