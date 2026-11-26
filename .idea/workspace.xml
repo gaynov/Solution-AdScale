@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c696ee9b-a0dd-4a5f-bffe-e1c736a81832" name="Changes" comment="AS_IS_v_0_1">
+      <change afterPath="$PROJECT_DIR$/Task2/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task1/Diagrams/TO-BE-C4_Container_Diagram__AdScale__TO_BE_.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task1/Diagrams/TO-BE.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Task1/Diagrams/TO-BE.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task1/TO-BE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Task1/TO-BE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task1/adr/ADR-001.md" beforeDir="false" afterPath="$PROJECT_DIR$/Task1/adr/ADR-001.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,59 +64,59 @@
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0000000000000002" />
-      <entry key="S30" value="1.0000137015912587" />
-      <entry key="S60" value="1.0064028817684458" />
-      <entry key="M2" value="1.1387871315979756" />
-      <entry key="M5" value="2.0447627678709486" />
-      <entry key="M10" value="4.275879096521295" />
-      <entry key="M15" value="6.819801611777577" />
-      <entry key="M30" value="13.850543098128787" />
-      <entry key="H1" value="23.79230017176481" />
-      <entry key="H2" value="33.93725825347757" />
-      <entry key="H4" value="44.57609358495526" />
-      <entry key="D1" value="255.60519104806508" />
-      <entry key="W1" value="568.7554336945367" />
+      <entry key="S2" value="1.0000000000000644" />
+      <entry key="S5" value="1.00000681601625" />
+      <entry key="S10" value="1.003970307118123" />
+      <entry key="S30" value="1.4189500179694983" />
+      <entry key="S60" value="2.840421033180772" />
+      <entry key="M2" value="5.330827374941701" />
+      <entry key="M5" value="8.863955189925575" />
+      <entry key="M10" value="11.890561288711803" />
+      <entry key="M15" value="14.534187886967242" />
+      <entry key="M30" value="21.74292445795454" />
+      <entry key="H1" value="32.29910948525645" />
+      <entry key="H2" value="43.44013856535801" />
+      <entry key="H4" value="54.936604891173545" />
+      <entry key="D1" value="266.0867055275061" />
+      <entry key="W1" value="580.2741431244244" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.8291486833249742E-88" />
-      <entry key="S5" value="8.03340391342416E-36" />
-      <entry key="S10" value="2.834326006906079E-18" />
-      <entry key="S30" value="1.4151960267166375E-6" />
-      <entry key="S60" value="0.0011896201186583203" />
-      <entry key="M2" value="0.03449087008203638" />
-      <entry key="M5" value="0.2601433239713253" />
-      <entry key="M10" value="0.5297748223609688" />
-      <entry key="M15" value="0.7654378086751908" />
-      <entry key="M30" value="1.6577170458487547" />
-      <entry key="H1" value="3.2528874082612327" />
-      <entry key="H2" value="4.961755790143673" />
-      <entry key="H4" value="6.345308248392308" />
-      <entry key="D1" value="10.227248426762774" />
-      <entry key="W1" value="12.494895284127315" />
+      <entry key="S2" value="3.746882879869685E-199" />
+      <entry key="S5" value="4.2605733571741976E-80" />
+      <entry key="S10" value="2.0641156356110967E-40" />
+      <entry key="S30" value="5.909871090101079E-14" />
+      <entry key="S60" value="2.431022642860628E-7" />
+      <entry key="M2" value="4.930540176888711E-4" />
+      <entry key="M5" value="0.04756514509241965" />
+      <entry key="M10" value="0.2265319090333925" />
+      <entry key="M15" value="0.4344454874152799" />
+      <entry key="M30" value="1.2488868516326872" />
+      <entry key="H1" value="2.8234192827153435" />
+      <entry key="H2" value="4.622623871614715" />
+      <entry key="H4" value="6.124622292501797" />
+      <entry key="D1" value="10.16708770042573" />
+      <entry key="W1" value="12.48436872751786" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8467453123625271" />
-      <entry key="MS500" value="0.9672763296139321" />
-      <entry key="S2" value="0.9917167307382933" />
-      <entry key="S5" value="0.9966784222188245" />
-      <entry key="S10" value="0.9983378297043667" />
-      <entry key="S30" value="0.9994600596395266" />
-      <entry key="S60" value="1.0071135066185228" />
-      <entry key="M2" value="1.170655569860255" />
-      <entry key="M5" value="2.2979787087813555" />
-      <entry key="M10" value="4.798829821980129" />
-      <entry key="M15" value="7.579042368218964" />
-      <entry key="M30" value="15.50248940841033" />
-      <entry key="H1" value="27.039768621024688" />
-      <entry key="H2" value="38.894812433857844" />
-      <entry key="H4" value="50.91859444513801" />
-      <entry key="D1" value="265.8313026270021" />
-      <entry key="W1" value="581.2500948539812" />
+      <entry key="MS100" value="0.29936967615473214" />
+      <entry key="MS500" value="0.7856725166675802" />
+      <entry key="S2" value="0.9414784645412704" />
+      <entry key="S5" value="0.976173880031979" />
+      <entry key="S10" value="0.9919782622681265" />
+      <entry key="S30" value="1.4148055343143677" />
+      <entry key="S60" value="2.838118687354666" />
+      <entry key="M2" value="5.329929580691553" />
+      <entry key="M5" value="8.90960769976235" />
+      <entry key="M10" value="12.113826163986193" />
+      <entry key="M15" value="14.964876716551245" />
+      <entry key="M30" value="22.987340522857334" />
+      <entry key="H1" value="35.11776269332833" />
+      <entry key="H2" value="48.058816480541815" />
+      <entry key="H4" value="61.058501611873034" />
+      <entry key="D1" value="276.2526604217806" />
+      <entry key="W1" value="592.7582775463322" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -131,26 +128,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Sequence&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/training/yp/sa/Solution-AdScale/Task1/Diagrams&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Sequence",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/training/yp/sa/Solution-AdScale/Task2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\training\yp\sa\Solution-AdScale\Task1\Diagrams" />
@@ -181,7 +178,7 @@
       <workItem from="1795249371858" duration="8280000" />
       <workItem from="1795516927096" duration="11632000" />
       <workItem from="1795537274842" duration="11287000" />
-      <workItem from="1795678891799" duration="2565000" />
+      <workItem from="1795678891799" duration="3519000" />
     </task>
     <task id="LOCAL-00001" summary="The First point">
       <option name="closed" value="true" />
